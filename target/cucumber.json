@@ -1,0 +1,120 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Verify results in DC metro area using list",
+        "description": "",
+        "id": "search-accross-states;verify-results-in-dc-metro-area-using-list",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "I am on the fourstay homepage",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "I enter school name \"Georgetown university\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I enter available start and end dates",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "I choose bed option for two beds",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "I click the search button",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "I should see the result count",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "the results should contain price tag, availablity tag, minimum stay tag as follows",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "$"
+                ],
+                "line": 13
+              },
+              {
+                "cells": [
+                  "Available From"
+                ],
+                "line": 14
+              },
+              {
+                "cells": [
+                  "Minimum Stay"
+                ],
+                "line": 15
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "actual results should match the result count",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search accross states",
+    "description": "",
+    "id": "search-accross-states",
+    "keyword": "Feature",
+    "uri": "com.fourStay.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Smoketest"
+      }
+    ]
+  }
+]
